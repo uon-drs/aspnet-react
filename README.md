@@ -51,17 +51,17 @@ There are also desirable improvements for future apps that aren't currently pres
 - [ ] Template documentation in this readme, or Github wiki if more space needed?
 - [ ] Guidance for renaming the template apps for an actual project
 
-  - js packages
-  - dotnet sln, csproj, namespaces
-    - the dotnet cli can do 90% of this if we use a custom template
-      1. rename the `.sln` manually as desired
-      1. `dotnet new <custom template path>`
-      - this will allow setting the project name, which will handle namespaces and the csproj, cloning the template project to a new one.
-      1. `dotnet sln add <new project>`
-      1. `dotnet sln remove <custom template project>`
-      1. Delete the template project folder
-    - this will also allow in future the ability to parameterise aspects of the template **if desirable**
-      - in practice we will probably _usually_ manage app feature inclusion based on runtime config rather than template config
+  - [ ] js packages
+  - [ ] dotnet sln, csproj, namespaces
+  - the dotnet cli can do 90% of this if we use a custom template
+    1. rename the `.sln` manually as desired
+    1. `dotnet new <custom template path>`
+    - this will allow setting the project name, which will handle namespaces and the csproj, cloning the template project to a new one.
+    1. `dotnet sln add <new project>`
+    1. `dotnet sln remove <custom template project>`
+    1. Delete the template project folder
+  - this will also allow in future the ability to parameterise aspects of the template **if desirable**
+    - in practice we will probably _usually_ manage app feature inclusion based on runtime config rather than template config
 
 - [ ] Docusaurus site in the template? (could contain common template docs too such as general use of Bicep, running db migrations...)
 
